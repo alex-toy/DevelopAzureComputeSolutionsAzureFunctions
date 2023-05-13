@@ -123,3 +123,16 @@ Instead of hard coding your connection string directly in your code, it is bette
 <img src="/pictures/azure_durable_function4.png" title="azure durable function"  width="900">
 
 We can see that the orchestrator function has executed the activity functions.
+
+
+## Azure Function working in Web App
+
+- create Web App that is connected to the same previous sql database and publish it
+<img src="/pictures/web_app.png" title="web app"  width="900">
+
+- modify the return of GetCourses so that it returns a stringified version of the courses
+<img src="/pictures/web_app2.png" title="web app"  width="900">
+
+- modify *GetCourses* in the *CourseService* to use the function app instead of connecting to the database itself and do the job of retrieving the courses
+
+- publish the App. It should word the same as previously.

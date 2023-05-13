@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAzureFunction", "DemoAz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableFunctionDemo", "DurableFunctionDemo\DurableFunctionDemo.csproj", "{9A27C257-2FCB-4FC2-ADA7-4BFF186D3AE3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlApp", "SqlApp\SqlApp.csproj", "{DC90BCCD-2315-4C3B-A556-DE93869872CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9A27C257-2FCB-4FC2-ADA7-4BFF186D3AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A27C257-2FCB-4FC2-ADA7-4BFF186D3AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A27C257-2FCB-4FC2-ADA7-4BFF186D3AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC90BCCD-2315-4C3B-A556-DE93869872CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC90BCCD-2315-4C3B-A556-DE93869872CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC90BCCD-2315-4C3B-A556-DE93869872CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC90BCCD-2315-4C3B-A556-DE93869872CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
