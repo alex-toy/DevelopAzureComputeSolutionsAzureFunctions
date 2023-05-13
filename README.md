@@ -47,3 +47,10 @@
 - run the function locally
 <img src="/pictures/vs_azure_function3.png" title="create azure function project"  width="900">
 
+- publish the app to Azure
+<img src="/pictures/publish_azure_function.png" title="publish azure function"  width="900">
+<img src="/pictures/publish_azure_function2.png" title="publish azure function"  width="900">
+<img src="/pictures/publish_azure_function3.png" title="publish azure function"  width="900">
+<img src="/pictures/publish_azure_function4.png" title="publish azure function"  width="900">
+<img src="/pictures/publish_azure_function5.png" title="publish azure function"  width="900">
+

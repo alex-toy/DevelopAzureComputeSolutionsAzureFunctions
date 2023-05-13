@@ -12,7 +12,7 @@ namespace DemoAzureFunction
 {
     public static class SampleFunction
     {
-        [FunctionName("demo")]
+        [FunctionName("Greetings")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
