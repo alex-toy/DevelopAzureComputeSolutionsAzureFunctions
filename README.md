@@ -36,3 +36,14 @@
 
 - same result with **Postman** :
 <img src="/pictures/create_fa_postman.png" title="create function app"  width="900">
+
+
+## Azure Functions using VSCode
+
+- create **Azure Function** project
+<img src="/pictures/vs_azure_function.png" title="create azure function project"  width="500">
+<img src="/pictures/vs_azure_function2.png" title="create azure function project"  width="900">
+
+- run the function locally
+<img src="/pictures/vs_azure_function3.png" title="create azure function project"  width="900">
+
