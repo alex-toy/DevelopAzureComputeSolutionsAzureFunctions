@@ -68,14 +68,40 @@ System.Data.SqlClient
 ### GET Method
 
 - test the function locally :
-<img src="/pictures/sql_af.png" title="sql azure function"  width="900">
+<img src="/pictures/sql_af.png" title="sql get azure function"  width="900">
 
 - get the function url :
-<img src="/pictures/sql_af2.png" title="sql azure function"  width="900">
+<img src="/pictures/sql_af2.png" title="sql get azure function"  width="900">
 
 - you may get an error such as the following. In this case, set the *Firewall Settings* for the server to allow Azure services.
-<img src="/pictures/sql_af3.png" title="sql azure function"  width="900">
+<img src="/pictures/sql_af3.png" title="sql get azure function"  width="900">
 
 - publish the app and test the function on azure :
-<img src="/pictures/sql_af4.png" title="sql azure function"  width="900">
+<img src="/pictures/sql_af4.png" title="sql get azure function"  width="900">
 
+### POST Method
+
+- add new *Azure Function*
+<img src="/pictures/sql_post_af.png" title="sql post azure function"  width="400">
+<img src="/pictures/sql_post_af2.png" title="sql post azure function"  width="400">
+
+- test the function locally
+<img src="/pictures/sql_post_af3.png" title="sql post azure function"  width="900">
+<img src="/pictures/sql_post_af4.png" title="sql post azure function"  width="600">
+
+- publish the app and test the function on azure :
+<img src="/pictures/sql_post_af5.png" title="sql get azure function"  width="900">
+
+### Azure Connection String
+
+Instead of hard coding your connection string directly in your code, it is better to use variables directly in Azure.
+
+- in the *Configuration* section of Azure Function, add a new connection string
+<img src="/pictures/sql_connection_string.png" title="sql connection string"  width="900">
+
+- you can now use that variable in your code. IMPORTANT : yo need to prefix the variable with "SQLAZURECONNSTR_"
+
+- publish again and test on Azure :
+<img src="/pictures/sql_connection_string2.png" title="sql get azure function"  width="900">
+<img src="/pictures/sql_connection_string3.png" title="sql get azure function"  width="900">
+<img src="/pictures/sql_connection_string4.png" title="sql get azure function"  width="900">
