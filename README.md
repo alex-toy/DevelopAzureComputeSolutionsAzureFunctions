@@ -82,8 +82,8 @@ System.Data.SqlClient
 ### POST Method
 
 - add new *Azure Function*
-<img src="/pictures/sql_post_af.png" title="sql post azure function"  width="400">
-<img src="/pictures/sql_post_af2.png" title="sql post azure function"  width="400">
+<img src="/pictures/sql_post_af.png" title="sql post azure function"  width="600">
+<img src="/pictures/sql_post_af2.png" title="sql post azure function"  width="600">
 
 - test the function locally
 <img src="/pictures/sql_post_af3.png" title="sql post azure function"  width="900">
@@ -103,5 +103,23 @@ Instead of hard coding your connection string directly in your code, it is bette
 
 - publish again and test on Azure :
 <img src="/pictures/sql_connection_string2.png" title="sql get azure function"  width="900">
-<img src="/pictures/sql_connection_string3.png" title="sql get azure function"  width="900">
+<img src="/pictures/sql_connection_string3.png" title="sql get azure function"  width="500">
 <img src="/pictures/sql_connection_string4.png" title="sql get azure function"  width="900">
+
+### Azure Durable Function
+
+- create a **Durable Function** project :
+<img src="/pictures/azure_durable_function.png" title="azure durable function"  width="900">
+
+- publish the app to Azure
+<img src="/pictures/azure_durable_function2.png" title="azure durable function"  width="900">
+
+- get the function url for Function1_HttpStart and query it in Postman
+<img src="/pictures/azure_durable_function3.png" title="azure durable function"  width="900">
+
+- internally, the starter function *Function1_HttpStart* will execute the orchestrator function which will in turn execute the acivity function. 
+
+- you can look at the status of the orchestrator function, click *statusQueryGetUri*
+<img src="/pictures/azure_durable_function4.png" title="azure durable function"  width="900">
+
+We can see that the orchestrator function has executed the activity functions.
