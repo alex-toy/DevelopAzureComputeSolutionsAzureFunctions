@@ -52,5 +52,30 @@
 <img src="/pictures/publish_azure_function2.png" title="publish azure function"  width="900">
 <img src="/pictures/publish_azure_function3.png" title="publish azure function"  width="900">
 <img src="/pictures/publish_azure_function4.png" title="publish azure function"  width="900">
+
+- function app now available in postman
 <img src="/pictures/publish_azure_function5.png" title="publish azure function"  width="900">
+
+
+## Azure SQL Database
+
+- create SQL database (alexeiadmin, Password.1234) and then run *scripts.sql*
+- Nuget Package
+```
+System.Data.SqlClient
+```
+
+### GET Method
+
+- test the function locally :
+<img src="/pictures/sql_af.png" title="sql azure function"  width="900">
+
+- get the function url :
+<img src="/pictures/sql_af2.png" title="sql azure function"  width="900">
+
+- you may get an error such as the following. In this case, set the *Firewall Settings* for the server to allow Azure services.
+<img src="/pictures/sql_af3.png" title="sql azure function"  width="900">
+
+- publish the app and test the function on azure :
+<img src="/pictures/sql_af4.png" title="sql azure function"  width="900">
 
