@@ -136,3 +136,10 @@ We can see that the orchestrator function has executed the activity functions.
 - modify *GetCourses* in the *CourseService* to use the function app instead of connecting to the database itself and do the job of retrieving the courses
 
 - publish the App. It should word the same as previously.
+
+### Azure Function - Blob Trigger
+
+- create an **Azure Function** project, choose blob trigger
+<img src="/pictures/af.png" title="azure function"  width="900">
+
+- run the app and upload a file in the data container
